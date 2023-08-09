@@ -1,0 +1,13 @@
+{
+  "name": "news-article-assignment",
+  "version": "1.0.0",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"cd ./server && npm run start\" \"cd ./client && npm run dev\""
+  },
+  "repository": "git@github.com:ducpminh668/news-article-assignment.git",
+  "author": "louis <louis.duc@sourcecode.com.au>",
+  "license": "MIT"
+}
